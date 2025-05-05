@@ -66,8 +66,8 @@ CREATE TABLE permesso
 CREATE TABLE utente
 (
     id_utente INT NOT NULL AUTO_INCREMENT,
-    nome varchar(25),
-    cognome varchar(25),
+    nome VARCHAR(25),
+    cognome VARCHAR(25),
     impronta_biometrica VARCHAR(255),
     user_password VARCHAR(32),
     data_nascita DATE,
